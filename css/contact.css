@@ -5,7 +5,7 @@
 
 .contact-articles::after {
     content: "";
-    background-image: url(/img/contact2.jpg);
+    background-image: url(img/contact2.jpg);
     position: absolute;
     width: 100%;
     height: inherit;
