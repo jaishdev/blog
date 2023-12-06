@@ -1,0 +1,22 @@
+.BG-right img{
+    border-radius: 30px;
+    width: 260px;
+    margin: 16px 0px;
+}
+
+.BG-right{
+    justify-content: center;
+}
+
+.home-articles a{
+    text-decoration: none;
+}
+
+
+@media screen and  (max-width:490px) {
+    .BG-right img{
+        border-radius: 10px;
+        width: 130px;
+    }
+}
+

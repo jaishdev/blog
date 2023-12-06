@@ -1,0 +1,46 @@
+.contact-articles {
+    height: 80vh;
+    position: relative;
+}
+
+.contact-articles::after {
+    content: "";
+    background-image: url(/img/contact2.jpg);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    top: -14px;
+    left: 0;
+    z-index: -1;
+}
+
+.form-box {
+    width: 10px;
+    margin-left: 1px;
+}
+
+.form-box input,textarea {
+    width: 50vw;
+    padding: 10px 16px;
+    margin: 5px 22px;
+}
+.contact-content h1{
+    padding: 10px 24px;
+}
+
+@media screen and (max-width: 590px){
+    .contact-content h1{
+        font-size: 24px;
+        padding: 10px 24px;
+    }
+    .form-box input,textarea {
+        width: 40vw;
+        padding: 7px 8px;
+        margin: 0px 12px;
+    }
+    .contact-articles {
+        height: 90vh;
+    }
+}
